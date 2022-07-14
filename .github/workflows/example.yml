@@ -1,0 +1,19 @@
+name: Hello World Example
+
+on:
+  workflow_dispatch:
+
+runs-on: self-hosted
+
+jobs:
+  local_hello:
+    steps:
+    - name: Say hello
+      run: echo Hello, world!
+
+  docker_hello:
+    steps:
+    - name: Hello again
+      run: docker run hello-world
+
+  
