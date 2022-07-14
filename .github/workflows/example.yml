@@ -1,12 +1,13 @@
 name: Hello World Example
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   build:
     runs-on: self-hosted
 
+    steps:
     - name: Say hello
       run: echo Hello, world!
 
