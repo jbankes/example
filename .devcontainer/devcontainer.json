@@ -23,6 +23,9 @@
 	"features": {
 		"docker-from-docker": "latest",
 		"github-cli": "latest",
-		"golang": "latest"
+		"golang": "latest",
+		"aws-cli": "latest",
+		"kubectl-helm-minikube": "latest",
+		"terraform": "latest"
 	}
 }
